@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mre.sb.notification.httpapi.host:
+    image: ${DOCKER_REGISTRY-}mresbnotificationhttpapihost
+    build:
+      context: .
+      dockerfile: host/Mre.Sb.Notification.HttpApi.Host/Dockerfile

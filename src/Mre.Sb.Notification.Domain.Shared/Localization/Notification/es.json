@@ -1,0 +1,11 @@
+{
+  "culture": "es",
+  "texts": {
+    "Plantilla:Existe": "El identificador {0} de la plantilla ya existe",
+    "Plantilla:NoExiste": "La plantilla con el Id: {0} no existe",
+    "Notificador:Validacion:SinAdjuntos": "No existe adjuntos",
+    "Notificador:Validacion:Codigo": "El código es requerido",
+    "Notificador:Validacion:Asunto": "El Asunto es requerido",
+    "Notificador:Validacion:Destinatarios": "Los destinatarios es requerido"
+  }
+}

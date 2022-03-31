@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Mre.Sb.Notification</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.10" />
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="4.4.3" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="4.4.3" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application.Contracts" Version="4.4.3" />
+    <ProjectReference Include="..\Mre.Sb.Notification.Domain.Shared\Mre.Sb.Notification.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+{
+  "culture": "en",
+  "texts": {
+    "Plantilla:Existe": "Template {0} already exist",
+    "Plantilla:NoExiste": "Template {0} not exist",
+    "Notificador:Validacion:SinAdjuntos": "No existe adjuntos",
+    "Notificador:Validacion:Codigo": "El código es requerido",
+    "Notificador:Validacion:Asunto": "El Asunto es requerido",
+    "Notificador:Validacion:Destinatarios": "Los destinatarios es requerido"
+  }
+}

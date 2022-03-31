@@ -1,0 +1,31 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Mre.Sb.Notification.HttpApi";
+
+package NotificationApi;
+
+message NotificationSendRequest{
+
+    string code = 1;
+
+    string subject = 2;
+
+    string recipient = 3;
+
+    map<string, string> model = 4;
+}
+
+
+message NotificationSendResponse{
+
+  
+    bool status = 1;    
+}
+
+
+
+service Notification {
+ 
+	rpc Send (NotificationSendRequest) returns (NotificationSendResponse);
+  
+}
